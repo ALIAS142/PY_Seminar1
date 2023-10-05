@@ -9,8 +9,11 @@ n = int(input())
 print("Enter second number - km in day:  ")
 m = int(input())
 
-day = int(24)
+# day = int(24)
+# day2 = (m - n) / day
+# print(round(day2))
 
-day2 = (m - n) / day
+# Second:
 
-print(round(day2))
+day2 = (m//n) + 1
+print(day2)

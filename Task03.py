@@ -6,14 +6,12 @@
 # это делать или сообщать, что без дополнительной информации это сделать невозможно.
 # Input: 3 4(ввод на разных строках) Output: 6
 
-print("Enter number of sit")
-i = input()
-print("Enter number of current sit ")
-j = input()
+print("Enter number of sit:   ")
+i = int(input())
+print("Enter number of current sit:    ")
+j = int(input())
 
-if (i == 3):
+if (i == 3) or (j == 4):
     print("Not enough info")
-
-elif (j == 4):
     print("Numeration is from tail")
-    print(f"quantity of sits = {(i + j) - 1}")
+    print(f"Quantity of sits = {(i + j) - 1}")
